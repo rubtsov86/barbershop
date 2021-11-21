@@ -1,0 +1,25 @@
+.button {
+  color: #ffffff;
+  background-color: transparent;
+
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+
+  height: 40px;
+  padding: 12px 20px;
+
+  border: 1px solid var(--primary-accent-color);
+  border-radius: 25px;
+
+  &:hover {
+    background-color: var(--primary-accent-color);
+  }
+}
+
+.button--inverse {
+  color: var(--primary-title-color);
+  width: 194px;
+}
