@@ -1,0 +1,78 @@
+.page-footer {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    max-width: 1250px;
+    margin: 0 auto;
+  }
+}
+
+.section__booking {
+  background-color: #191c26;
+  @media screen and (min-width: 1200px) {
+    width: 50%;
+  }
+}
+
+.container__booking {
+  @media screen and (min-width: 1200px) {
+    width: 600px;
+  }
+}
+
+.form {
+  margin-top: 44px;
+}
+
+.form__list {
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+}
+
+.form__item {
+  @media screen and (max-width: 767px) {
+    &:first-child {
+      margin-bottom: 44px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    &:first-child {
+      margin-right: 30px;
+    }
+    width: calc((100% - 30px) / 2);
+  }
+}
+
+.form__input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+  padding-bottom: 8px;
+  width: 100%;
+
+  @media screen and (max-width: 767px) {
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  color: rgba(157, 164, 189, 0.4);
+
+  &::placeholder {
+    color: currentColor;
+  }
+
+  &:focus {
+    color: var(--secondary-title-color);
+    border-bottom: 1px solid var(--secondary-title-color);
+    outline: none;
+  }
+}
+
+.textarea {
+  margin-top: 44px;
+  margin-bottom: 44px;
+  height: 76px;
+  resize: none;
+}

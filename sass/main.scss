@@ -2,10 +2,17 @@
 @import 'utils/variables';
 @import 'utils/utils';
 
-@import 'components/logo';
 @import 'components/container';
 @import 'components/button';
+@import 'components/title';
 
 @import 'layout/header';
 @import 'layout/body';
 @import 'layout/about';
+@import 'layout/price';
+@import 'layout/reason';
+@import 'layout/masters';
+@import 'layout/gallery';
+@import 'layout/booking';
+@import 'layout/contacts';
+@import 'layout/bottom-line';

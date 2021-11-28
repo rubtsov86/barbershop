@@ -1,15 +1,20 @@
 .button {
   color: #ffffff;
   background-color: transparent;
+  width: 160px;
+  display: block;
 
   font-weight: 600;
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.09em;
   text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
 
   height: 40px;
-  padding: 12px 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 
   border: 1px solid var(--primary-accent-color);
   border-radius: 25px;
@@ -22,8 +27,26 @@
 .button--inverse {
   color: var(--primary-title-color);
   width: 194px;
+
+  &:hover {
+    color: var(--secondary-title-color);
+  }
 }
 
 .button--inverse-small {
   color: var(--primary-title-color);
+
+  &:hover {
+    color: var(--secondary-title-color);
+  }
+}
+
+.button--centered {
+  display: block;
+  margin: 0 auto;
+}
+
+.form__button {
+  display: block;
+  margin: 0 auto;
 }

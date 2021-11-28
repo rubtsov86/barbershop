@@ -3,7 +3,7 @@
 }
 
 .about-list {
-  @media screen and (max-width: 689px) {
+  @media screen and (max-width: 767px) {
     display: none;
   }
 
@@ -14,7 +14,7 @@
 
 .about-img__item {
   &:not(:first-child) {
-    @media screen and (min-width: 690px) and (max-width: 1199px) {
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
       margin-top: 30px;
     }
     @media screen and (min-width: 1200px) {
@@ -28,47 +28,17 @@
 }
 
 .about-text__wrapper {
-  @media screen and (min-width: 690px) and (max-width: 1199px) {
-    padding-left: 30px;
+  @media screen and (min-width: 768px) {
+    margin-left: 30px;
   }
-  @media screen and (min-width: 1200px) {
-    padding-left: 64px;
-  }
-}
-
-.pre-title__text {
-  display: flex;
-  align-items: center;
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36;
-  text-transform: uppercase;
-  color: var(--primary-title-color);
-  margin-bottom: 20px;
-
-  &::before {
-    content: '';
-    margin-right: 40px;
-    width: 60px;
-    height: 1px;
-    background-color: var(--primary-title-color);
-  }
-}
-
-.after-title__text {
-  font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: 0.02em;
-  margin-top: 20px;
-  margin-bottom: 20px;
 
   @media screen and (min-width: 1200px) {
-    font-size: 18px;
-    line-height: 1.67;
+    margin-left: 64px;
   }
 }
 
 .about-text {
+  margin-top: 20px;
   font-size: 14px;
   line-height: 1.85;
   letter-spacing: 0.02em;
