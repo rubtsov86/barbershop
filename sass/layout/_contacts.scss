@@ -1,10 +1,10 @@
 .section__contacts {
   @media screen and (max-width: 480px) {
-    background-image: url('../../images/bg_contacts-mobile.png'),
+    background-image: url('../images/bg_contacts-mobile.png'),
       linear-gradient(to right, rgba(25, 28, 38, 1), rgba(25, 28, 38, 1));
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-      background-image: url('../../images/bg_contacts-mobile@2x.png'),
+      background-image: url('../images/bg_contacts-mobile@2x.png'),
         linear-gradient(to right, rgba(25, 28, 38, 1), rgba(25, 28, 38, 1));
     }
   }
@@ -12,22 +12,22 @@
   @media screen and (min-width: 481px) and (max-width: 1199px) {
     max-width: 768px;
     margin: 0 auto;
-    background-image: url('../../images/bg_contacts-tablet.png'),
+    background-image: url('../images/bg_contacts-tablet.png'),
       linear-gradient(to right, rgba(25, 28, 38, 1), rgba(25, 28, 38, 1));
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-      background-image: url('../../images/bg_contacts-tablet@2x.png'),
+      background-image: url('../images/bg_contacts-tablet@2x.png'),
         linear-gradient(to right, rrgba(25, 28, 38, 1), rgba(25, 28, 38, 1));
     }
   }
 
   @media screen and (min-width: 1200px) {
     max-width: 50%;
-    background-image: url('../../images/bg_contacts-desktop.png'),
+    background-image: url('../images/bg_contacts-desktop.png'),
       linear-gradient(to right, rgba(25, 28, 38, 1), rgba(25, 28, 38, 1));
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-      background-image: url('../../images/bg_contacts-desktop@2x.png'),
+      background-image: url('../images/bg_contacts-desktop@2x.png'),
         linear-gradient(to right, rgba(25, 28, 38, 1), rgba(25, 28, 38, 1));
     }
   }
