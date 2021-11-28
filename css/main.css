@@ -1073,45 +1073,45 @@ body {
 
 @media screen and (max-width: 480px) {
   .section__price {
-    background-image: url("../../images/price-mobile.png"), -webkit-gradient(linear, left top, right top, from(#111319), to(#111319));
-    background-image: url("../../images/price-mobile.png"), linear-gradient(to right, #111319, #111319);
+    background-image: url("../images/price-mobile.png"), -webkit-gradient(linear, left top, right top, from(#111319), to(#111319));
+    background-image: url("../images/price-mobile.png"), linear-gradient(to right, #111319, #111319);
   }
 }
 
 @media screen and (max-width: 480px) and (min-device-pixel-ratio: 2), screen and (max-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 480px) and (min-resolution: 192dpi), screen and (max-width: 480px) and (min-resolution: 2dppx) {
   .section__price {
-    background-image: url("../../images/price-mobile@2x.png"), -webkit-gradient(linear, left top, right top, from(#111319), to(#111319));
-    background-image: url("../../images/price-mobile@2x.png"), linear-gradient(to right, #111319, #111319);
+    background-image: url("../images/price-mobile@2x.png"), -webkit-gradient(linear, left top, right top, from(#111319), to(#111319));
+    background-image: url("../images/price-mobile@2x.png"), linear-gradient(to right, #111319, #111319);
   }
 }
 
 @media screen and (min-width: 481px) {
   .section__price {
     max-width: 768px;
-    background-image: url("../../images/price-tablet.png"), -webkit-gradient(linear, left top, right top, from(#111319), to(#111319));
-    background-image: url("../../images/price-tablet.png"), linear-gradient(to right, #111319, #111319);
+    background-image: url("../images/price-tablet.png"), -webkit-gradient(linear, left top, right top, from(#111319), to(#111319));
+    background-image: url("../images/price-tablet.png"), linear-gradient(to right, #111319, #111319);
   }
 }
 
 @media screen and (min-width: 481px) and (min-device-pixel-ratio: 2), screen and (min-width: 481px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 481px) and (min-resolution: 192dpi), screen and (min-width: 481px) and (min-resolution: 2dppx) {
   .section__price {
-    background-image: url("../../images/price-tablet@2x.png"), -webkit-gradient(linear, left top, right top, from(#111319), to(#111319));
-    background-image: url("../../images/price-tablet@2x.png"), linear-gradient(to right, #111319, #111319);
+    background-image: url("../images/price-tablet@2x.png"), -webkit-gradient(linear, left top, right top, from(#111319), to(#111319));
+    background-image: url("../images/price-tablet@2x.png"), linear-gradient(to right, #111319, #111319);
   }
 }
 
 @media screen and (min-width: 1200px) {
   .section__price {
     max-width: 1280px;
-    background-image: url("../../images/price-desktop.png"), -webkit-gradient(linear, left top, right top, from(#111319), to(#111319));
-    background-image: url("../../images/price-desktop.png"), linear-gradient(to right, #111319, #111319);
+    background-image: url("../images/price-desktop.png"), -webkit-gradient(linear, left top, right top, from(#111319), to(#111319));
+    background-image: url("../images/price-desktop.png"), linear-gradient(to right, #111319, #111319);
   }
 }
 
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .section__price {
-    background-image: url("../../images/price-desktop@2x.png"), -webkit-gradient(linear, left top, right top, from(#111319), to(#111319));
-    background-image: url("../../images/price-desktop@2x.png"), linear-gradient(to right, #111319, #111319);
+    background-image: url("../images/price-desktop@2x.png"), -webkit-gradient(linear, left top, right top, from(#111319), to(#111319));
+    background-image: url("../images/price-desktop@2x.png"), linear-gradient(to right, #111319, #111319);
   }
 }
 
